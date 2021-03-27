@@ -5,7 +5,7 @@ const path = require('path');
     (in terminal) node webpack.config.js */
 
 module.exports = {
-    entry: './src/playground/redux-101.js',
+    entry: './src/playground/redux-expensify.js',
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'bundle.js',
